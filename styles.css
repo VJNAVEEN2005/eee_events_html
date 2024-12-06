@@ -1,0 +1,168 @@
+/* styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/*Header*/
+
+.header-eee{
+
+}
+
+.header-eee .name-eee{
+    opacity: 20;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.781);
+    height: 100px;
+    width: 100%;
+}
+
+.header-eee .name-eee .logo{
+    position: absolute;
+    width: 96px;
+    top: 30px;
+    left: 50px;
+}
+
+.header-eee .photo-eee .building{
+    z-index: -1;
+    scale: 1;
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top: -100px;
+}
+
+.header-eee .photo-eee .hod-eee{
+    position: absolute;
+    right: 10px;
+    top: 140px;
+    background-color: rgba(255, 255, 255, 0.772);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header-eee .photo-eee .hod-eee .text{
+    margin-left: 20px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.header-eee .photo-eee .hod-eee a{
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.header-eee .photo-eee .hod-eee .hod{
+    width: 140px;
+}
+
+.header-eee .red-line{
+    width: 100%;
+    height: 30px;
+    top: 350px;
+    position: absolute;
+}
+
+.head-hight{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+/*Footer*/
+
+footer .footer-gray{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(35, 35, 35);
+    justify-content: space-evenly;
+}
+
+footer .footer-gray .logo img{
+    width: 120px;
+}
+
+footer .footer-gray .map{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer .footer-gray .map p{
+    margin: 2px;
+}
+
+footer .footer-gray .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer .footer-gray .text p{
+    text-align: center;
+}
+
+footer .footer-gray .text .space{
+    width: 100%;
+    height: 10px;
+}
+
+footer .footer-gray .text .footer-icons{
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-gray .text .footer-icons svg{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+
+
+
+/*Phone*/
+
+
+@media (max-width: 768px) {
+
+    /*Header*/
+
+    .header-eee .name-eee .logo{
+        top: 50px;
+        width: 60px;
+        left: 20px;
+    }
+
+    /*Footer*/
+
+    footer .footer-gray{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .footer-gray .space{
+        width: 100%;
+        height: 20px;
+    }
+
+    footer .footer-gray .map{
+        visibility: hidden;
+        max-width: 0px;
+        max-height: 0px;
+        overflow: hidden;
+    }
+
+}
