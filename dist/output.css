@@ -556,6 +556,10 @@ video {
 
 /*Header*/
 
+*{
+  font-family: "Poppins", serif;
+}
+
 .header-eee{
   max-height: 400px;
 }
