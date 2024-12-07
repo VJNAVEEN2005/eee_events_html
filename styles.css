@@ -64,7 +64,14 @@
     }
 }
 
+.popup{
+    animation: popup;
+    animation-duration: 0.9s;
+}
+
 .header-eee .photo-eee .hod-eee{
+    animation: popup;
+    animation-duration: 0.9s;
     position: absolute;
     right: 10px;
     top: 140px;
