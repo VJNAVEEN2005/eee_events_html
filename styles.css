@@ -29,6 +29,7 @@
 }
 
 .header-eee .photo-eee {
+    z-index: -1;
     top: -100px;
     position: relative; /* Ensure positioning context */
     width: 100%; /* Match the container width */
@@ -37,13 +38,15 @@
 }
 
 .header-eee .photo-eee .photo .building{
-    z-index: -1;
+    
     width: 100%; /* Ensure it fills the container horizontally */
     object-fit: cover; /* Keep the aspect ratio and fill the container */
     position: absolute; /* Absolute positioning for animation */
     top: 0; /* Reset positioning */
     left: 0; /* Reset positioning */
-    animation-name: zoom;
+    width: 100%;
+    height: 380px;
+    animation: zoom;
     animation-duration: 20s;
     animation-iteration-count: infinite;
 }
@@ -189,7 +192,7 @@ footer .footer-gray .text .footer-icons svg{
     }
 
     .header-eee .photo-eee{
-        
+        top: -100px;
     }
 
     .header-eee .photo-eee .hod-eee{
