@@ -714,12 +714,16 @@ footer .footer-gray .text .footer-icons svg{
 /*Body*/
 
 .event-title{
+  margin: 50px;
+  color: black;
+  padding: 10px 30px 30px 30px;
+  border-radius: 20px;
   -webkit-backdrop-filter: blur(14px);
           backdrop-filter: blur(14px);
   background-color: rgba(255, 255, 255, 0.674);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   animation: popup;
-  animation-duration: 0.7s;
+  animation-duration: 0.9s;
 }
 
 @keyframes popup {
@@ -774,5 +778,11 @@ footer .footer-gray .text .footer-icons svg{
     max-width: 0px;
     max-height: 0px;
     overflow: hidden;
+  }
+
+  /*Body*/
+
+  .event-title{
+    margin: 10px;
   }
 }
